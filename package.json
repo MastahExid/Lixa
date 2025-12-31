@@ -175,9 +175,13 @@
   "node": "20.x"
   },
   "pnpm": {
-    "peerDependencyRules": {
-      "allowedVersions": {
-        "remix": "2"
+  "peerDependencyRules": {
+    "allowedVersions": {
+      "remix": "2"
+    }
+  },
+  "overrides": {
+    "better-sqlite3": "^11.0.0"
       }
     }
   }
